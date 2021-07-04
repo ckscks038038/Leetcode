@@ -1,6 +1,8 @@
-class Solution {
+class Solution 
+{
 public:
-    int maxArea(vector<int>& height) {
+    int maxArea(vector<int>& height)
+    {
         int right_index=height.size()-1;
         int left_index=0;
         int area=0, h,w;  //h,w stand for height and width
@@ -16,9 +18,6 @@ public:
             else
                 right_index--;
         }
-        return area;
-                
+        return area;          
     }
-  
-
 };
